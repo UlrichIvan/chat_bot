@@ -10,6 +10,8 @@
 
 4. Créer un fichier .env à la racine du projet et le remplir en se basant sur le fichier .env.example
 
+5. Base de données distant sur le cloud MongoDB Atlas
+
 ### Fonctionnalités :
 
 1. Informations pour un prduit
