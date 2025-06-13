@@ -1,0 +1,8 @@
+.env
+commande.txt
+.venv
+*.pdf
+__pycache__
+*.zip
+exercice*
+data
