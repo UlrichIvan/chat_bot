@@ -1,5 +1,5 @@
 from manager import MongoManager
-# Nom du produit
+# Nom
 # Prix
 # Description
 # Catégorie
@@ -12,20 +12,20 @@ collection = mongo_manager.create_collection(
             "bsonType": "object",
             "additionalProperties": True,
             "required": [
-                "name",
-                "price",
+                "nom",
+                "prix",
                 "description",
-                "category"
+                "catégorie"
             ],
             "properties": {
-                "name": {
+                "nom": {
                     "bsonType": "string",
                 },
-                "price": {
+                "prix": {
                     "bsonType": "double",
                 },
                 "description": {"bsonType": "string"},
-                "category": {
+                "catégorie": {
                     "bsonType": "string",
                 },
             },

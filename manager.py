@@ -13,7 +13,6 @@ class MongoManager:
         self.client = MongoClient(uri, server_api=ServerApi("1"), tls=True)
         try:
             ping = self.client.admin.command({"ping": 1})
-            print(ping)
         except Exception:
             raise Exception("An exception occurred")
         self.__db = None

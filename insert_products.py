@@ -8,34 +8,34 @@ mongo_manager.db = "exam_db"
 mongo_manager.collection="products"
 data = [
    {
-   "name": "Ordinateur Portable",
-   "price": 350.67,
+   "nom": "Ordinateur Portable",
+   "prix": 350.67,
    "description": "Ordinateur performant avec 16 Go de RAM et un écran Full HD.",
-   "category": "Windows"
+   "catégorie": "Windows"
   },
  {
-   "name": "PC Portable",
-   "price":500.85,
+   "nom": "PC Portable",
+   "prix":500.85,
    "description": "PC performant avec 32 Go de RAM et 1000 GO.",
-   "category": "Dell"
+   "catégorie": "Dell"
   },
   {
-   "name": "tablette",
-   "price": 450.0,
+   "nom": "tablette",
+   "prix": 450.0,
    "description": "tablette performant avec 32 Go de RAM et un écran Full HD.",
-   "category": "Appel"
+   "catégorie": "Appel"
   },
   {
-   "name": "Iphone 16",
-   "price": 549.78,
+   "nom": "Iphone 16",
+   "prix": 549.78,
    "description": "iphone performant avec 128 Go de RAM et un écran Full HD.",
-   "category": "Appel"
+   "catégorie": "Appel"
   },
    {
-   "name": "Samsung 11",
-   "price": 88.99,
+   "nom": "Samsung 11",
+   "prix": 88.99,
    "description": "tablette performant avec 32 Go de RAM et un écran Full HD.",
-   "category": "Samsung"
+   "catégorie": "Samsung"
   },
 ]
 results = mongo_manager.create_many_documents(data)
