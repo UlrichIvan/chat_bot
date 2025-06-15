@@ -47,3 +47,16 @@ Lorsque un utilisateur entre un prompt voici ce qui se passe :
 5. Si l'utilisateur appuis sur `OUI` alors le chat bot continuera le dialogue avec lui en lui demandant un nouveau prompt.
 
 6. Dans le cas ou l'utilisateur choisit `NON` alors la communication avec le chat bot se termine directement et un message d'Aurevoir lui est adressé.
+
+### créer la base de données les collections
+```cmd
+python create_database_and_products_collection.py
+```
+### inserer les produits dans la collection
+```cmd
+python insert_products.py
+```
+### lancer le chatbot
+```cmd
+python main.py
+```
